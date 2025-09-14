@@ -521,6 +521,14 @@
             z-index: -2;
             opacity: 0.1;
         }
+
+        .project-links {
+               text-decoration: none;
+        }
+
+        .text-color {
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -529,8 +537,8 @@
     <nav>
         <div class="nav-container">
             <div class="nav-left">
-                <a href="#" class="logo"  font-family="'Pacifico', cursive;"> </a>
-                <span class="handwriting-link">🥏</span>
+                <a href="#" class="logo"  font-family="'Pacifico', cursive;">🥏 </a>
+             
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
                     <span id="themeIcon">🌙</span>
                 </button>
@@ -608,21 +616,25 @@
         <section id="projects">
             <div class="container">
                 <h2 class="section-title">Key Projects</h2>
-                
                 <div class="project-card">
+                    <a href="https://github.com/rheacharis/keylogger" class="project-links" >
                     <h3>Keylogger for Behavioral Analysis</h3>
-                    <p>Advanced keylogger system designed to capture user keystrokes for security vulnerability analysis and enhanced user profiling capabilities.</p>
+                    
+                    <p style="color:black">Advanced keylogger system designed to capture user keystrokes for security vulnerability analysis and enhanced user profiling capabilities.</p>
                     <div class="project-metrics">
                         <div class="metric">
                             <span>📊</span>
                             <span>96% Keystroke Capture Rate</span>
                         </div>
                     </div>
+                    </a>
                 </div>
+                
 
                 <div class="project-card">
+                     <a href="https://github.com/rheacharis/Bluebugging" class="project-links" >
                     <h3>Bluetooth Bluebugging Detection</h3>
-                    <p>Developed a sophisticated anomaly detection system utilizing transform-based attention models to identify and prevent unauthorized Bluetooth access attempts.</p>
+                    <p style="color:black">Developed a sophisticated anomaly detection system utilizing transform-based attention models to identify and prevent unauthorized Bluetooth access attempts.</p>
                     <div class="project-metrics">
                         <div class="metric">
                             <span>🎯</span>
@@ -633,11 +645,13 @@
                             <span>Transform-based Attention Models</span>
                         </div>
                     </div>
+                    </a>
                 </div>
 
                 <div class="project-card">
+                     <a href="https://github.com/rheacharis/Biometric-watermarking" class="project-links" >
                     <h3>Biometric Watermarking</h3>
-                    <p>Implemented fingerprint watermark embedding using Hyperdimensional Computing combined with DWT-SVD for secure medical image authentication and tamper detection.</p>
+                    <p style="color:black">Implemented fingerprint watermark embedding using Hyperdimensional Computing combined with DWT-SVD for secure medical image authentication and tamper detection.</p>
                     <div class="project-metrics">
                         <div class="metric">
                             <span>🛡️</span>
@@ -648,11 +662,14 @@
                             <span>95%+ Imperceptibility</span>
                         </div>
                     </div>
+                    </a>
                 </div>
 
                 <div class="project-card">
+                    <a href="https://github.com/rheacharis/Securing-healthcare-iot-devices" class="project-links" >
                     <h3>Secure Health IoT Data Transmission</h3>
-                    <p>Applied TEA and XTEA lightweight encryption algorithms to secure sensitive medical data in resource-constrained IoT environments with comprehensive adversarial testing.</p>
+                     
+                    <p style="color:black">Applied TEA and XTEA lightweight encryption algorithms to secure sensitive medical data in resource-constrained IoT environments with comprehensive adversarial testing.</p>
                     <div class="project-metrics">
                         <div class="metric">
                             <span>🔒</span>
@@ -663,7 +680,9 @@
                             <span>Healthcare IoT Focus</span>
                         </div>
                     </div>
+                    </a>
                 </div>
+
             </div>
         </section>
 
