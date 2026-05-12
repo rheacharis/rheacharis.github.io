@@ -1,0 +1,107 @@
+<!-- 
+TESTIMONIALS -->
+<section id="testimonials">
+  <div class="slbl rv">Kind Words</div>
+  <h2 class="stitle rv d1">What clients<br><em>say</em> about the work</h2>
+
+  <div class="tm-grid">
+
+    <!-- Testimonial 1 — Joy Constructions -->
+    <div class="tm-card rv">
+      <div class="tm-quote-mark">"</div>
+      <div class="tm-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <p class="tm-text">
+        Rhea understood our vision from the very first conversation. The logo she created
+        for Joy Constructions is professional, timeless, and perfectly captures who we are.
+        The entire brand package exceeded our expectations.
+      </p>
+      <div class="tm-person">
+        <!--
+          TESTIMONIAL PHOTO 1
+          Replace src with the client's photo.
+          e.g. src="images/testimonial-fredric.jpg"
+        -->
+        <div class="tm-photo">
+          <img src="images/testimonial-fredric.jpg" alt="S Fredric"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+          <svg style="display:none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <div class="tm-info">
+          <div class="tm-name">S Fredric B.E.</div>
+          <div class="tm-role">Joy Constructions · Civil Engineer</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 — Biz Sparks -->
+    <div class="tm-card rv d1">
+      <div class="tm-quote-mark">"</div>
+      <div class="tm-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <p class="tm-text">
+        She built our entire event website from scratch — beautifully designed, fully functional,
+        and delivered on time. Every event page, the registration flow, everything worked
+        flawlessly on the day of Biz Sparks.
+      </p>
+      <div class="tm-person">
+        <!--
+          TESTIMONIAL PHOTO 2
+          e.g. src="images/testimonial-bizsparks.jpg"
+        -->
+        <div class="tm-photo">
+          <img src="images/testimonial-bizsparks.jpg" alt="Bon Secours College"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+          <svg style="display:none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <div class="tm-info">
+          <div class="tm-name">ACE Department</div>
+          <div class="tm-role">Bon Secours College · Thanjavur</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 — Tirupathi Travels -->
+    <div class="tm-card rv d2">
+      <div class="tm-quote-mark">"</div>
+      <div class="tm-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <p class="tm-text">
+        Our website looks exactly like a premium travel brand now. Customers find us on
+        Google and book directly through WhatsApp — Rhea's work has made a real
+        difference to our business.
+      </p>
+      <div class="tm-person">
+        <!--
+          TESTIMONIAL PHOTO 3
+          e.g. src="images/testimonial-tirupathi.jpg"
+        -->
+        <div class="tm-photo">
+          <img src="images/testimonial-tirupathi.jpg" alt="Tirupathi Travels"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+          <svg style="display:none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <div class="tm-info">
+          <div class="tm-name">Tirupathi Travels</div>
+          <div class="tm-role">Car Rental · Madurai</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add your testimonial placeholder -->
+    <div class="tm-card tm-add rv d3">
+      <div class="tm-add-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      </div>
+      <p class="tm-add-text">
+        Worked with me?<br>
+        I'd love to hear your thoughts.
+      </p>
+      <a href="mailto:charis.rhea@gmail.com" class="tm-add-link">Share your experience →</a>
+    </div>
+
+  </div>
+</section>
